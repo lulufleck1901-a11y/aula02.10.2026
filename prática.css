@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 900px;
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.formulario,
+.resultado {
+    padding: 40px;
+}
+
+.formulario {
+    background-color: white;
+}
+
+.resultado {
+    background-color: #eeeeee;
+}
+
+h1,
+h2 {
+    margin-bottom: 10px;
+}
+
+.formulario p {
+    margin-bottom: 25px;
+    color: #666;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.termos {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.termos input {
+    width: auto;
+}
+
+.termos label {
+    margin: 0;
+    font-weight: normal;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#mensagem {
+    color: red;
+    margin-bottom: 15px;
+}
+
+#saida {
+    margin-top: 25px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#saida p {
+    margin-bottom: 12px;
+}
